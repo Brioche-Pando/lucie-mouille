@@ -1,0 +1,19 @@
+.navbar {
+    padding: $s5_5 $s6;
+    display: flex;
+    justify-content: flex-end;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: $s6;
+
+        &-item {
+            list-style: none;
+
+            &:last-of-type {
+                margin-left: $s5;
+            }
+        }
+    }
+}

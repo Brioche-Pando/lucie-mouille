@@ -1,0 +1,25 @@
+.navigation {
+    display: inline-flex;
+    align-items: center;
+    gap: 28px;
+    color: $black;
+    font-weight: 400;
+    text-decoration: none;
+
+    &::first-letter {
+        text-transform: capitalize;
+    }
+
+    &:hover {
+        color: $violet_accent;
+        font-weight: 700;
+    }
+
+    &__icon {
+        stroke-width: 1.5;
+    }
+
+    &:hover &__icon {
+        stroke-width: 2.5;
+    }
+}

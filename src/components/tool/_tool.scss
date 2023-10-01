@@ -1,0 +1,31 @@
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $s5_5;
+}
+
+.tool {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: $s3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: $yellow;
+
+    &__icon {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+    }
+
+    &__name {
+        color: $black;
+        font-size: 14px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+}

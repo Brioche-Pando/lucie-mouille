@@ -1,0 +1,18 @@
+.button {
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: $violet;
+    color: $black;
+    font-weight: 700;
+    text-decoration: none;
+
+    &::first-letter {
+        text-transform: capitalize;
+    }
+
+    &:hover {
+        background-color: $violet_accent;
+        color: $white;
+    }
+}
