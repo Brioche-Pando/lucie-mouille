@@ -1,11 +1,10 @@
-import React from 'react'
 import Button from '../../components/button/Button'
 import Tool from '../../components/tool/Tool'
 
 import DataExpertises from '../../data/expertises.json'
 import DataTools from '../../data/tools.json'
 
-import PhotoLucie from '../../../public/images/photo-lucie.jpg'
+import PhotoLucie from '/images/photo-lucie.jpg'
 import Expertise from '../../components/expertise/Expertise'
 
 function Home () {
@@ -13,28 +12,26 @@ function Home () {
     <div className='home'>
       <div className='home__two-cols'>
         <div>
-          <section className='home__section'>
+          <section className='home__section home__section--small'>
             <h1>Bonjour & bienvenue</h1>
             <p>
-              Je suis Lucie, UX·UI Designer en recherche de nouvelles
+              Je suis Lucie, <b>UX·UI Designer</b> en recherche de nouvelles
               opportunités Design !
             </p>
-            <div>
-              <Button
-                url={
-                  'https://www.linkedin.com/in/lucie-mouill%C3%A9-57593b1b7/'
-                }
-                target={'_blank'}
-                content={'Mon LinkedIn'}
-              />
-              <Button
-                url={'/'}
-                target={'_blank'}
-                content={'Télécharger mon CV'}
-              />
-            </div>
+            <Button
+              url={'https://www.linkedin.com/in/lucie-mouill%C3%A9-57593b1b7/'}
+              target={'_blank'}
+              content={'Mon LinkedIn'}
+              additionnal_class={''}
+            />
+            <Button
+              url={'/'}
+              target={'_blank'}
+              content={'Télécharger mon CV'}
+              additionnal_class={''}
+            />
           </section>
-          <section className='home__section'>
+          <section className='home__section home__section--small'>
             <h2>Mon rôle</h2>
             <p>
               J'utilise les méthodes d'UX Design afin de concevoir des designs

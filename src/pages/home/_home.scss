@@ -1,12 +1,30 @@
 .home {
+    padding-inline: $pi_sm;
+
+    @include media-min($md) {
+        padding-inline: $pi_md;
+    }
+
+    @include media-min($lg) {
+        padding-inline: $pi_lg;
+    }
+
     &__section {
         margin-bottom: $s6;
+
+        &--small {
+            margin-right: $s10;
+        }
+
+        a:first-of-type {
+            margin-right: $s5;
+        }
     }
 
     &__two-cols {
         width: 100%;
         display: inline-flex;
-        align-items: center;
+        align-items: flex-start;
         gap: $s8;
     }
 

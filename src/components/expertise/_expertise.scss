@@ -13,4 +13,8 @@
     gap: $s4;
     border-radius: 8px;
     background-color: $green;
+
+    &__desc {
+        margin-bottom: 0;
+    }
 }

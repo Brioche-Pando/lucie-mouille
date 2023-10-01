@@ -1,0 +1,21 @@
+.footer {
+    margin-top: $s8;
+    padding: $s5_5 $s6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $beige_accent;
+
+    &__copyright {
+        margin: 0;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: $s3;
+    }
+
+    &__button {
+        list-style: none;
+    }
+}
