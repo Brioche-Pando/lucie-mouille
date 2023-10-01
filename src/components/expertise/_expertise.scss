@@ -1,0 +1,16 @@
+.expertises {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $s4;
+}
+
+.expertise {
+    display: flex;
+    width: 384px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $s4;
+    border-radius: 8px;
+    background-color: $green;
+}
