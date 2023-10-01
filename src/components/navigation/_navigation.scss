@@ -2,6 +2,7 @@
     display: inline-flex;
     align-items: center;
     gap: 28px;
+    position: relative;
     color: $black;
     font-weight: 400;
     text-decoration: none;
@@ -10,9 +11,23 @@
         text-transform: capitalize;
     }
 
+    &::after {
+        content: "";
+        width: 0;
+        height: 1px;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        background-color: $violet_accent;
+        transition: width 0.2s ease-in-out;
+    }
+
     &:hover {
         color: $violet_accent;
-        font-weight: 700;
+
+        &::after {
+            width: 100%;
+        }
     }
 
     &__icon {
