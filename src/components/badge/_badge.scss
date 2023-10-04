@@ -1,0 +1,12 @@
+.badge {
+    height: 32px;
+    padding-inline: $s5;
+    display: inline-flex;
+    align-items: center;
+    background-color: $violet;
+    border-radius: $border_radius;
+    border: 1px solid $violet_accent;
+    color: $violet_accent;
+    font-weight: 500;
+    text-transform: uppercase;
+}

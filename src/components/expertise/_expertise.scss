@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: $s4;
-    border-radius: 8px;
+    border-radius: $border_radius;
     background-color: $green;
 
     &__desc {

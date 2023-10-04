@@ -1,7 +1,7 @@
 .button {
-    padding: 12px 24px;
+    padding: $s2 $s4;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: $border_radius;
     background-color: $violet;
     color: $black;
     font-weight: 700;
