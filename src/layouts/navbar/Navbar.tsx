@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '../../components/button/Button'
 import Navigation from '../../components/navigation/Navigation'
 
@@ -35,6 +34,7 @@ function Header () {
             url='mailto:luciemouille@hotmail.com'
             target='_blank'
             content='Contacter'
+            additionnal_class=''
           />
         </li>
       </ul>

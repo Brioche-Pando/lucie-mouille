@@ -1,0 +1,36 @@
+.project-preview {
+    padding: $s5 $s4;
+    border-radius: $border_radius;
+    background-color: $beige_accent;
+
+    &__container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: $s5_5;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        &-wrapper {
+            width: 100%;
+            height: 180px;
+            position: relative;
+            border-radius: $border_radius;
+            overflow: hidden;
+            aspect-ratio: 1.4;
+        }
+    }
+
+    &__title {
+        margin-block: $s3;
+    }
+
+    &__tags {
+        display: flex;
+        gap: $s3;
+    }
+}

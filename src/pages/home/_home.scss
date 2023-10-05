@@ -1,12 +1,12 @@
 .home {
-    padding-inline: $pi_sm;
+    padding-inline: 8rem;
 
     @include media-min($md) {
-        padding-inline: $pi_md;
+        padding-inline: 14rem;
     }
 
     @include media-min($lg) {
-        padding-inline: $pi_lg;
+        padding-inline: 18rem;
     }
 
     &__section {
@@ -23,8 +23,8 @@
 
     &__two-cols {
         width: 100%;
-        display: inline-flex;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: $s8;
     }
 
@@ -35,7 +35,8 @@
 
         &-container {
             margin-block: $s6;
-            flex-grow: 1;
+            position: relative;
+            overflow: hidden;
         }
     }
 }
