@@ -2,7 +2,7 @@
     {
         "id": 0,
         "slug": "factory-group",
-        "name": "Site web · Factory Group",
+        "name": "Factory Group",
         "years": "2021",
         "link": "https://xd.adobe.com/view/21807bac-9853-452a-95fb-fc93d67d3459-74d3/",
         "badge": "Pro",
@@ -73,7 +73,7 @@
     {
         "id": 2,
         "slug": "logiroad",
-        "name": "Plateforme Logiroad",
+        "name": "Logiroad",
         "years": "2022-23",
         "link": "",
         "badge": "Pro",
@@ -109,7 +109,7 @@
     {
         "id": 3,
         "slug": "hos",
-        "name": "Logo · HOS",
+        "name": "HOS",
         "years": "2022",
         "link": "https://assets.adobe.com/id/urn:aaid:sc:EU:164b387d-7951-48c8-b3a4-18b00828af6f?view=published",
         "badge": "Scolaire",
@@ -213,7 +213,7 @@
     {
         "id": 6,
         "slug": "la-faille",
-        "name": "Logo · La Faille",
+        "name": "La Faille",
         "years": "2023",
         "link": "https://www.figma.com/file/IBH48if4Zntf4yaGFIFIfV/🥝-Design?type=design&node-id=333%3A13294&mode=design&t=S6rUMeENLAmbODc7-1",
         "badge": "Perso",

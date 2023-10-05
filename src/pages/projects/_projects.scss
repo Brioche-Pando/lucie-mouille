@@ -1,0 +1,24 @@
+.projects {
+    padding-inline: 8rem;
+
+    @include media-min($md) {
+        padding-inline: 14rem;
+    }
+
+    @include media-min($lg) {
+        padding-inline: 18rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: space-between;
+        gap: $s7 $s5_5;
+    }
+
+    .project-preview__img-wrapper {
+        @include media-min($lg) {
+            height: 230px;
+        }
+    }
+}

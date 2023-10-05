@@ -1,0 +1,11 @@
+.about {
+    padding-inline: 8rem;
+
+    @include media-min($md) {
+        padding-inline: 14rem;
+    }
+
+    @include media-min($lg) {
+        padding-inline: 18rem;
+    }
+}
