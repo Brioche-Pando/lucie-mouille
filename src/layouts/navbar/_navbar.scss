@@ -1,9 +1,50 @@
 .navbar {
     padding: $s5_5 $s6;
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "back menu";
+
+    &__back-to-projects {
+        width: fit-content;
+        grid-area: back;
+        display: flex;
+        align-items: center;
+        gap: $s3;
+        text-decoration: none;
+        color: inherit;
+
+        span {
+            position: relative;
+
+            &::after {
+                content: "";
+                width: 0;
+                height: 1px;
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                background-color: $violet_accent;
+                transition: width 0.2s ease-in-out;
+            }
+        }
+
+        &:hover {
+            color: $violet_accent;
+
+            path {
+                transition: width 0.2s ease-in-out;
+                stroke: $violet_accent;
+            }
+
+            span::after {
+                width: 100%;
+            }
+        }
+    }
 
     &__list {
+        justify-self: self-end;
+        grid-area: menu;
         display: flex;
         align-items: center;
         gap: $s6;

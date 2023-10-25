@@ -2,6 +2,7 @@
 import React from 'react'
 import Badge from '../badge/Badge'
 import Tag from '../tag/Tag'
+import { Link } from 'react-router-dom'
 interface ProjectPreviewProps {
   slug: string
   name: string
@@ -18,7 +19,7 @@ const ProjectPreview: React.FC<ProjectPreviewProps> = ({
   const mockupImagePath = `/images/projects/${slug}/mockup/${slug}.png`
 
   return (
-    <div className='project-preview'>
+    <Link to={`/projects/${slug}`} className='project-preview'>
       <figure className='project-preview__img-wrapper'>
         <img
           src={mockupImagePath}
@@ -38,7 +39,7 @@ const ProjectPreview: React.FC<ProjectPreviewProps> = ({
           />
         ))}
       </div>
-    </div>
+    </Link>
   )
 }
 
