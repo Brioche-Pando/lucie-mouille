@@ -92,7 +92,7 @@ function About () {
         </div>
       </div>
       <section className='about__gallery'>
-        <h2>Gallerie de vie</h2>
+        <h2>Galerie de vie</h2>
         <ul className='about__gallery__list'>
           {images.map((image, index) => (
             <li key={index} className='about__gallery__list-item'>
