@@ -8,4 +8,56 @@
     @include media-min($lg) {
         padding-inline: 18rem;
     }
+
+    h3 {
+        margin-bottom: $s4;
+    }
+
+    h4 {
+        margin-bottom: $s3;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    &__tags {
+        margin-bottom: $s5;
+        display: flex;
+        align-items: center;
+        gap: $s4;
+    }
+
+    &__images {
+        height: 535px;
+        margin-bottom: $s5;
+        display: flex;
+        gap: $s5;
+        overflow-x: auto;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: $s8;
+
+        &-skills {
+            height: fit-content;
+            padding: 24px 20px;
+            border-radius: $border_radius;
+            background-color: $green;
+
+            h4 {
+                display: flex;
+                align-items: center;
+                gap: $s2;
+            }
+
+            ul {
+                margin-bottom: $s3;
+                display: flex;
+                gap: $s2;
+            }
+        }
+    }
 }

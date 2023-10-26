@@ -1,7 +1,7 @@
 .navigation {
     display: inline-flex;
     align-items: center;
-    gap: 28px;
+    gap: $s3;
     position: relative;
     color: $black;
     font-weight: 400;
@@ -24,6 +24,11 @@
 
     &:hover {
         color: $violet_accent;
+
+        path {
+            transition: width 0.2s ease-in-out;
+            stroke: $violet_accent;
+        }
 
         &::after {
             width: 100%;

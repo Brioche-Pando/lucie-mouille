@@ -55,6 +55,19 @@
             &:last-of-type {
                 margin-left: $s5;
             }
+
+            &--active .navigation {
+                color: $violet_accent;
+
+                path {
+                    transition: width 0.2s ease-in-out;
+                    stroke: $violet_accent;
+                }
+
+                &::after {
+                    width: 100%;
+                }
+            }
         }
     }
 }

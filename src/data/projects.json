@@ -13,9 +13,16 @@
             }
         ],
         "summary": "Création de maquettes pour le site web et intégration dans Wordpress avec Elementor. Travail en amont sur la charte graphique et sur l'univers de la marque.",
+        "images": [
+            "/images/projects/factory-group/factory-group-1.png",
+            "/images/projects/factory-group/factory-group-2.png",
+            "/images/projects/factory-group/factory-group-3.png",
+            "/images/projects/factory-group/factory-group-4.png"
+        ],
         "context": "Je suis arrivée en stage chez Syd, alors qu'ils avaient fait l'acquisition de Factory Group. L'entreprise s'occupe principalement de vendre des ERP et des CRM à des PME et des TPE. Je disposais d'un site web existant, mais ancien et avec des mauvaises informations . De plus, les couleurs utilisées et les façons de voir le sites sont des anciens codes plus à jour et le site n'est pas responsive, ce qui constitue un enjeu supplémentaire.",
         "approach": [
-            "La partie complexe a été de gérer l'absence de contenu pour le site web jusqu'à la presque fin du projet. J'ai utilisé ces mois pour être formée, et pour comprendre les enjeux entre la création et la réalité d'un projet développé. Cela m'a aussi permis pouvoir donner une véritable identité visuelle à un site web en toute liberté.",
+            "La partie complexe a été de gérer l'absence de contenu pour le site web jusqu'à la presque fin du projet.",
+            "J'ai utilisé ces mois pour être formée, et pour comprendre les enjeux entre la création et la réalité d'un projet développé. Cela m'a aussi permis pouvoir donner une véritable identité visuelle à un site web en toute liberté.",
             "J'ai pu aussi faire des présentations de mes avancées avec des réunions etc. Cela a été un véritable défi pour moi mais j'ai pu avancer et apprendre énormément avec cette refonte. Cela m'a permis de prendre confiance en mon travail et en mes capacités.",
             "J'ai aussi pu découvrir à l'utilisation WordPress ainsi qu'Elementor Pro, ce qui m'a permis de voir par moi-même la réalité entre une maquette design et la faisabilité technique sur un CMS."
         ],
@@ -50,6 +57,12 @@
             }
         ],
         "summary": "Création de maquettes et renouvellement de l'identité visuelle et du logo du site web.",
+        "images": [
+            "/images/projects/plein-epices/plein-epices-1.png",
+            "/images/projects/plein-epices/plein-epices-2.png",
+            "/images/projects/plein-epices/plein-epices-3.png",
+            "/images/projects/plein-epices/plein-epices-4.png"
+        ],
         "context": "Ce travail de cours portait sur la refonte d'un site d'épicerie et sur la création d'une nouvelle identité visuelle ainsi que d'un logo pour ce site web. Il y avait un travail important à faire sur l'architecture du site qui comportait de nombreux menus qui renvoyaient aux mêmes pages.",
         "approach": [
             "Le travail en duo en distanciel a été un véritable défi. De plus, le site du Plein d'épices était particulièrement complexe à traiter, avec une organisation et une architecture déstructurée et conséquente.",
@@ -84,6 +97,12 @@
             }
         ],
         "summary": "Mon alternance pendant 2 ans afin de créer un logiciel métier sous forme de plateforme adaptée desktop et mobile.",
+        "images": [
+            "/images/projects/logiroad/logiroad-1.png",
+            "/images/projects/logiroad/logiroad-2.png",
+            "/images/projects/logiroad/logiroad-3.png",
+            "/images/projects/logiroad/logiroad-4.png"
+        ],
         "context": "Suite à mon arrivée chez Logiroad, j'ai pu intégrer l'équipe de développement d'une plateforme de visualisation de données routières. Les besoins utilisateurs de la plateforme n'avait pas réellement été définis, seules des datas récupérées et des bribes de besoins d'anciens utilisateurs. Cependant le projet avait déjà démarré, il m'a donc fallut m'intégrer à cette équipe qui n'avait pas d'UX-UI designer.",
         "approach": [
             "Le projet fut long et complexe, mais en travaillant petit à petit sur les fonctionnalités importantes tout d'abord puis ensuite sur les améliorations et les nouvelles briques à apporter au logiciel, le travail a été efficace. Le besoin de communiquer au mieux les besoins entre l'équipe de développeurs et moi a été de créer un design system efficace et de se créer des processus efficaces et qui nous permettaient une bonne cohésion.",
@@ -120,6 +139,11 @@
             }
         ],
         "summary": "Création d'un logo pour une équipe d'e-sport.",
+        "images": [
+            "/images/projects/hos/hos-1.png",
+            "/images/projects/hos/hos-2.png",
+            "/images/projects/hos/hos-3.jpeg"
+        ],
         "context": "Une équipe e-sport amateur avait besoin d'un nouveau logo pour ensuite floquer les t-shirts de leur équipe pour une compétition. Ils voulaient absolument conserver les 3 lettres de leur équipe assez lisible car il s'agit des lettres qui permettent de les reconnaître dans l'interface du jeu.",
         "approach": [
             "J'ai décidé de partir sur quelque chose de simple, visuel, et coloré. J'ai apporté un côté coréen à ces lettres calligraphiées par mes soins. J'ai pu me renseigner sur le jeu ainsi que sur les tendances actuelles et c'est ainsi que je leur ai proposé ce logo qui a été adopté par l'équipe."
@@ -153,6 +177,12 @@
             }
         ],
         "summary": "Imagination d'un projet complet et mise en œuvre de maquettes et d'un Design System.",
+        "images": [
+            "/images/projects/citron-presse/citron-presse-1.png",
+            "/images/projects/citron-presse/citron-presse-2.png",
+            "/images/projects/citron-presse/citron-presse-3.png",
+            "/images/projects/citron-presse/citron-presse-4.png"
+        ],
         "context": "Mon projet de fin d'étude afin de valider mon M2 était de créer le Design System d'une marque et d'un projet fictif. Nous avons donc pu imaginer en binôme ce projet du début à la fin. Nous devions rendre à la fin du Mastère lors d'une présentation oral, une explication écrite de notre réflexion (format Notion) ainsi qu'un DS sous Zeroheight, de maquettes et d'un prototypage adapté.",
         "approach": [
             "La création de ce DS a été un véritable défi, de temps d'abord, car ma binôme et moi, avions cours et nos alternances en parallèle. Nous avons du d'abord trouver une idée, puis nous avons avancé petit à petit sur ce projet. Nous avons souhaité trouver un sujet et un style qui nous représentait et qui nous correspondait afin de rendre la tâche plus agréable pour nous. Malgré la complexité de ce projet, les bénéfices en terme de compréhension et de création d'un DS ont été réels. J'ai en effet pu apprendre à utiliser Zeroheight et j'ai été plus en profondeur dans la création de composants et de variants dans Figma."
@@ -189,6 +219,11 @@
             }
         ],
         "summary": "Création d'une solution digitale à un problème sur le handicap en un temps réduit.",
+        "images": [
+            "/images/projects/comi/comi-1.png",
+            "/images/projects/comi/comi-2.png",
+            "/images/projects/comi/comi-3.png"
+        ],
         "context": "Ce projet a vu le jour lors de la compétition de 2 semaines en team de 8 personnes (format agence) organisé par l'école. Il était donc important qu'avec des personnes d'univers divers nous puissions nous entendre et être efficace sur un projet à créer de A à Z avec comme problématique : “Une solution à un presqu'handicap”. L'équipe était composée de 4 étudiants UX·UI, 1 développeur et de 3 étudiants en marketing & communication.",
         "approach": [
             "L'entraide et la communication nous ont permis d'être très efficace sur ce projet. Cela nous a demandé de la réflexion, de nombreuses étapes à la fois UX et UI faites rapidement afin de rentrer dans le délai imparti. Nous avons cependant pu fournir un produit viable et avec un rendu qui nous plaisait particulièrement. Le travail en équipe m'a aussi permis de travailler mes capacités d'adaptation aux autres univers du digital et de créer aussi un projet complet avec une contrainte de temps assez serrée. "
@@ -224,6 +259,12 @@
             }
         ],
         "summary": "Création d'un logo pour le projet d'un étudiant.",
+        "images": [
+            "/images/projects/la-faille/la-faille-1.png",
+            "/images/projects/la-faille/la-faille-2.png",
+            "/images/projects/la-faille/la-faille-3.png",
+            "/images/projects/la-faille/la-faille-4.jpg"
+        ],
         "context": "Ce projet a été créé pour le projet de fin d'étude d'un étudiant développeur à l'école. Son sujet était un application web liée au jeu League of Legends et à destination des équipes amateurs afin de faciliter leur jeu et la communication entre les joueurs.",
         "approach": [
             "J'ai choisi de représenter l'élément central d'une partie de LoL. La faille correspond au terrain de jeu (forme du logo). On y retrouve différents éléments comme des flèches qui se rejoignent pour conserver l'aspect communication. On peut aussi y voir la lettre F, la première lettre du nom de l'app. Ce logo était un moyen de combiner des éléments que je ne connaissaient pas forcément tout en y apportant ma touche, avec des éléments extérieurs compréhensibles même pour des personnes qui ne connaissent pas le jeu."

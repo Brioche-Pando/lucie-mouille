@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 interface NavigationProps {
   url: string
   target: '_self' | '_blank'
-  icon: React.ReactNode
+  icon: string
   content: string
 }
 
@@ -16,7 +16,10 @@ const Navigation: React.FC<NavigationProps> = ({
 }) => {
   return (
     <Link to={url} target={target} className='navigation'>
-      {icon}
+      <figure
+        className='navigation__icon'
+        dangerouslySetInnerHTML={{ __html: icon }}
+      ></figure>
       {content}
     </Link>
   )

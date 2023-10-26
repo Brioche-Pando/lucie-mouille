@@ -14,6 +14,19 @@
 
     &.classic {
         border: 1px solid $black;
-        background-color: transparent;
+        background-color: $white;
+    }
+
+    &--link {
+        border: 1px solid $black;
+        background-color: $beige_accent;
+        gap: $s3;
+        text-decoration: none;
+    }
+
+    &__icon {
+        &-wrapper {
+            height: 24px;
+        }
     }
 }

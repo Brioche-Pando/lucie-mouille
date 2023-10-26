@@ -5,11 +5,17 @@ import DataProjects from '../../data/projects.json'
 import DataExpertises from '../../data/expertises.json'
 import DataTools from '../../data/tools.json'
 
+import CVpdf from '/cv/Lucie_Mouille_cv.pdf?url'
 import PhotoLucie from '/images/photo-lucie.jpg?url'
 import Expertise from '../../components/expertise/Expertise'
 import ProjectPreview from '../../components/project_preview/ProjectPreview'
+import { useEffect } from 'react'
 
 function Home () {
+  useEffect(() => {
+    document.title = 'Bienvenue | Lucie Mouilé'
+  })
+
   const latestProjects = DataProjects.filter(
     project => project.id === 4 || project.id === 2
   )
@@ -31,7 +37,7 @@ function Home () {
               additionnal_class={''}
             />
             <Button
-              url={'/'}
+              url={CVpdf}
               target={'_blank'}
               content={'Télécharger mon CV'}
               additionnal_class={''}

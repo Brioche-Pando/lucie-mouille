@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import image01 from '/images/life_gallery/01.jpg'
 import image02 from '/images/life_gallery/02.jpg'
 import image03 from '/images/life_gallery/03.jpg'
@@ -7,6 +8,10 @@ import image06 from '/images/life_gallery/06.jpg'
 import vecto_lucie from '/images/vecto-lucie.jpg'
 
 function About () {
+  useEffect(() => {
+  document.title = 'A propos | Lucie Mouilé'
+})
+
   // Créez une liste d'images
   const images = [image01, image02, image03, image04, image05, image06]
 

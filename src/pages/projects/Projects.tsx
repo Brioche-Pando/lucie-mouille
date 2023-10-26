@@ -1,7 +1,12 @@
 import DataProjects from '../../data/projects.json'
 import ProjectPreview from '../../components/project_preview/ProjectPreview'
+import { useEffect } from 'react'
 
 function Projects () {
+  useEffect(() => {
+    document.title = 'Mes projets | Lucie Mouilé'
+  })
+  
   return (
     <section className='projects'>
       <h1>Mes projets</h1>
