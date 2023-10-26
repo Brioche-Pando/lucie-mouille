@@ -36,6 +36,7 @@ const ProjectPreview: React.FC<ProjectPreviewProps> = ({
             text={tagItem.name}
             has_icon={true}
             icon={tagItem.icon}
+            is_link={false}
           />
         ))}
       </div>
