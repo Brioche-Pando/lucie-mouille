@@ -62,15 +62,15 @@
             list-style: none;
 
             &::before {
-                content: url("./images/icons/heart--violet.svg");
+                content: url("../images/icons/heart--violet.svg");
             }
 
             &:nth-of-type(3n + 2)::before {
-                content: url("./images/icons/heart--green.svg");
+                content: url("../images/icons/heart--green.svg");
             }
 
             &:nth-of-type(3n + 3)::before {
-                content: url("./images/icons/heart--yellow.svg");
+                content: url("../images/icons/heart--yellow.svg");
             }
         }
 

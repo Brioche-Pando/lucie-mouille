@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
-import image01 from '/images/life_gallery/01.jpg'
-import image02 from '/images/life_gallery/02.jpg'
-import image03 from '/images/life_gallery/03.jpg'
-import image04 from '/images/life_gallery/04.jpg'
-import image05 from '/images/life_gallery/05.jpg'
-import image06 from '/images/life_gallery/06.jpg'
-import vecto_lucie from '/images/vecto-lucie.jpg'
+import image01 from '/images/life_gallery/01.jpg?url'
+import image02 from '/images/life_gallery/02.jpg?url'
+import image03 from '/images/life_gallery/03.jpg?url'
+import image04 from '/images/life_gallery/04.jpg?url'
+import image05 from '/images/life_gallery/05.jpg?url'
+import image06 from '/images/life_gallery/06.jpg?url'
+import vecto_lucie from '/images/vecto-lucie.jpg?url'
 
 function About () {
   useEffect(() => {
