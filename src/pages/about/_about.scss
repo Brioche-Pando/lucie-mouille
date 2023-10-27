@@ -1,13 +1,5 @@
 .about {
-    padding-inline: 8rem;
-
-    @include media-min($md) {
-        padding-inline: 14rem;
-    }
-
-    @include media-min($lg) {
-        padding-inline: 18rem;
-    }
+    @include content_padding();
 
     h2 {
         margin-bottom: $s5_5;

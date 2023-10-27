@@ -1,8 +1,24 @@
 .navbar {
-    padding: $s5_5 $s6;
+    padding: $s5_5 $s4;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "back menu";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: $s5_5;
+    grid-template-areas:
+        "menu"
+        "back";
+
+    @include media-min($md) {
+        padding: $s5_5 $s3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "back menu";
+    }
+
+    @include media-min($md) {
+        padding: $s5_5 $s6;
+    }
 
     &__back-to-projects {
         width: fit-content;
@@ -43,17 +59,34 @@
     }
 
     &__list {
-        justify-self: self-end;
+        justify-self: center;
         grid-area: menu;
         display: flex;
         align-items: center;
-        gap: $s6;
+        gap: $s5_5;
+
+        @include media-min($md) {
+            justify-self: self-end;
+            gap: $s4;
+        }
+        @include media-min($lg) {
+            gap: $s6;
+        }
 
         &-item {
             list-style: none;
 
             &:last-of-type {
-                margin-left: $s5;
+                display: none;
+                margin-left: 0;
+
+                @include media-min($md) {
+                    display: block;
+                }
+
+                @include media-min($lg) {
+                    margin-left: $s5;
+                }
             }
 
             &--active .navigation {

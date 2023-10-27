@@ -10,6 +10,7 @@ import PhotoLucie from '/images/photo-lucie.jpg?url'
 import Expertise from '../../components/expertise/Expertise'
 import ProjectPreview from '../../components/project_preview/ProjectPreview'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function Home () {
   useEffect(() => {
@@ -50,8 +51,11 @@ function Home () {
               qui prennent en compte les humains qui interagissent avec.
             </p>
           </section>
-          <section className='home__section'>
-            <h2>Mes derniers projets</h2>
+          <div className='home__section home__project-preview '>
+            <div className='home__project-preview__header'>
+              <h2>Mes derniers projets</h2>
+              <Link to='/projects'>Voir plus</Link>
+            </div>
             <div className='project-preview__container'>
               {latestProjects.map((project, index) => (
                 <ProjectPreview
@@ -63,7 +67,7 @@ function Home () {
                 />
               ))}
             </div>
-          </section>
+          </div>
         </div>
         <figure className='home__photo-container'>
           <img className='home__photo' src={PhotoLucie} alt='Lucie Mouillé' />

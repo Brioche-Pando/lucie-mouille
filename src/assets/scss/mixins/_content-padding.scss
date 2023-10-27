@@ -1,0 +1,19 @@
+@mixin content_padding() {
+    padding-inline: 1.5rem;
+
+    @include media-min($sm) {
+        padding-inline: 4rem;
+    }
+
+    @include media-min($md) {
+        padding-inline: 6rem;
+    }
+
+    @include media-min($lg) {
+        padding-inline: 8rem;
+    }
+
+    @include media-min($xl) {
+        padding-inline: 12rem;
+    }
+}

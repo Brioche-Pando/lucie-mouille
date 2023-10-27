@@ -1,42 +1,88 @@
 .home {
-    padding-inline: 8rem;
-
-    @include media-min($md) {
-        padding-inline: 14rem;
-    }
-
-    @include media-min($lg) {
-        padding-inline: 18rem;
-    }
+    @include content_padding();
 
     &__section {
         margin-bottom: $s6;
 
         &--small {
-            margin-right: $s10;
+            margin-right: 0;
+
+            @include media-min($md) {
+                margin-right: $s4;
+            }
+
+            @include media-min($lg) {
+                margin-right: $s10;
+            }
         }
 
         a:first-of-type {
             margin-right: $s5;
+            margin-bottom: $s3;
+
+            @include media-min($md) {
+                margin-bottom: 0;
+            }
         }
     }
 
     &__two-cols {
         width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: $s8;
+        display: block;
+
+        @include media-min($xxl) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: end;
+            gap: $s5;
+        }
+    }
+
+    &__project-preview {
+        width: fit-content;
+
+        &__header {
+            margin-bottom: $s5;
+            display: flex;
+            align-items: baseline;
+            justify-content: flex-start;
+            gap: $s4;
+
+            @include media-min($lg) {
+                justify-content: space-between;
+            }
+
+            h2 {
+                margin-bottom: 0;
+            }
+
+            a:first-of-type {
+                margin: 0;
+                color: $black;
+                white-space: nowrap;
+            }
+        }
     }
 
     &__photo {
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
 
         &-container {
+            width: clamp(320px, 100%, 525px);
+            height: min(700px, 100%);
+            display: none;
+            border-radius: 30%;
+            border: 5px solid $violet_accent;
             margin-block: $s6;
             position: relative;
             overflow: hidden;
+            aspect-ratio: 0.75;
+
+            @include media-min($xxl) {
+                display: block;
+            }
         }
     }
 }

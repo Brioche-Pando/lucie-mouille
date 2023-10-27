@@ -7,7 +7,7 @@ function Footer () {
       <ul className='footer__buttons'>
         <li className='footer__button'>
           <Button
-            url='mailto:luciemouille@hotmail.fr'
+            url='mailto:luciemouille@hotmail.com'
             target='_blank'
             content='<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_938_837)"><path d="M22.1525 3.55322L11.1772 21.0044L9.50683 12.4078L1.99999 7.89796L22.1525 3.55322Z" stroke="#2C2C2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.45566 12.4436L22.1525 3.55317" stroke="#2C2C2C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g> <defs> <clipPath id="clip0_938_837"> <rect width="24" height="24" fill="white"/> </clipPath> </defs> </svg>'
             additionnal_class='button--square'

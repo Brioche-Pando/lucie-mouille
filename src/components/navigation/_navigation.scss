@@ -1,11 +1,18 @@
 .navigation {
     display: inline-flex;
+    flex-direction: column;
     align-items: center;
-    gap: $s3;
+    gap: $s1;
     position: relative;
     color: $black;
     font-weight: 400;
     text-decoration: none;
+    white-space: nowrap;
+
+    @include media-min($md) {
+        flex-direction: row;
+        gap: $s3;
+    }
 
     &::first-letter {
         text-transform: capitalize;
