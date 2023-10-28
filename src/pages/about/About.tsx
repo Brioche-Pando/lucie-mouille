@@ -9,8 +9,8 @@ import vecto_lucie from '/images/vecto-lucie.jpg?url'
 
 function About () {
   useEffect(() => {
-  document.title = 'A propos | Lucie Mouilé'
-})
+    document.title = 'A propos | Lucie Mouilé'
+  })
 
   // Créez une liste d'images
   const images = [image01, image02, image03, image04, image05, image06]
@@ -29,15 +29,17 @@ function About () {
               <p>98'baby</p>
             </div>
           </div>
-          <h2 className='margin--small'>Je suis :</h2>
-          <ul className='about__iam'>
-            <li className='about__iam-item'>Empathique & observatrice</li>
-            <li className='about__iam-item'>Bonne communiquante</li>
-            <li className='about__iam-item'>Vectrice de bonne humeur</li>
-            <li className='about__iam-item'>Curieuse</li>
-            <li className='about__iam-item'>Créative</li>
-            <li className='about__iam-item'>À l'aise en équipe</li>
-          </ul>
+          <div className='about__iam-container'>
+            <h2 className='margin--small'>Je suis :</h2>
+            <ul className='about__iam'>
+              <li className='about__iam-item'>Empathique & observatrice</li>
+              <li className='about__iam-item'>Bonne communiquante</li>
+              <li className='about__iam-item'>Vectrice de bonne humeur</li>
+              <li className='about__iam-item'>Curieuse</li>
+              <li className='about__iam-item'>Créative</li>
+              <li className='about__iam-item'>À l'aise en équipe</li>
+            </ul>
+          </div>
         </div>
         <div className='about__experiences'>
           <h2>Mes expériences professionnelles</h2>

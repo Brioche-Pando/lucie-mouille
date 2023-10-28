@@ -13,8 +13,54 @@
     &__details {
         margin-bottom: $s5_5;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "presentation"
+            "experiences"
+            "studies";
         gap: $s6;
+
+        @include media-min($lg) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas:
+                "presentation presentation"
+                "experiences studies";
+        }
+
+        @include media-min($xxl) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas: "presentation experiences studies";
+            gap: $s6;
+        }
+    }
+
+    &__presentation {
+        grid-area: presentation;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        @include media-min($lg) {
+            flex-direction: row;
+            gap: $s5_5;
+        }
+
+        @include media-min($xxl) {
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+
+    &__experiences {
+        grid-area: experiences;
+    }
+
+    &__studies {
+        grid-area: studies;
     }
 
     &__exp {
@@ -37,8 +83,17 @@
     &__portrait {
         margin-bottom: $s5_5;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         gap: $s5_5;
+
+        @include media-min($sm) {
+            flex-direction: row;
+        }
+
+        @include media-min($xxl) {
+            align-items: center;
+        }
 
         p {
             margin-bottom: $s4;
@@ -74,9 +129,11 @@
     &__gallery {
         &__list {
             display: flex;
+            flex-wrap: wrap;
             gap: $s4;
 
             &-item {
+                width: clamp(150px, 100%, 235px);
                 list-style: none;
             }
         }
