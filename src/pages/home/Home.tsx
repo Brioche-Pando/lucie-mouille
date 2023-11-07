@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
 
 function Home () {
   useEffect(() => {
-    document.title = 'Bienvenue | Lucie Mouilé'
+    document.title = 'UX UI designer - Product Designer | Lucie Mouillé'
   })
 
   const latestProjects = DataProjects.filter(
