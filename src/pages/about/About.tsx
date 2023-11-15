@@ -7,7 +7,12 @@ import image05 from '/images/life_gallery/05.jpg?url'
 import image06 from '/images/life_gallery/06.jpg?url'
 import vecto_lucie from '/images/vecto-lucie.jpg?url'
 
+
+import useLanguageContext from '../../hooks/useLanguage'
+
 function About () {
+  const { translate } = useLanguageContext()
+
   useEffect(() => {
     document.title = 'A propos | Lucie Mouilé'
   })
@@ -17,8 +22,8 @@ function About () {
 
   return (
     <section className='about'>
-      <h1>About</h1>
-      <h2 className='p'>Mon parcours et mes compétences.</h2>
+      <h1>{translate('Navigation', 'aboutMe')}</h1>
+      <h2 className='p'>{translate('About', 'backgroundSkills')}</h2>
       <div className='about__details'>
         <div className='about__presentation'>
           <div className='about__portrait'>
@@ -30,71 +35,58 @@ function About () {
             </div>
           </div>
           <div className='about__iam-container'>
-            <h2 className='margin--small'>Je suis :</h2>
+            <h2 className='margin--small'>{translate('About', 'IAm')}</h2>
             <ul className='about__iam'>
-              <li className='about__iam-item'>Empathique & observatrice</li>
-              <li className='about__iam-item'>Bonne communiquante</li>
-              <li className='about__iam-item'>Vectrice de bonne humeur</li>
-              <li className='about__iam-item'>Curieuse</li>
-              <li className='about__iam-item'>Créative</li>
-              <li className='about__iam-item'>À l'aise en équipe</li>
+              <li className='about__iam-item'>{translate('About', 'empatheticAndObservant')}</li>
+              <li className='about__iam-item'>{translate('About', 'greatCommunicator')}</li>
+              <li className='about__iam-item'>{translate('About', 'goodVibes')}</li>
+              <li className='about__iam-item'>{translate('About', 'curious')}</li>
+              <li className='about__iam-item'>{translate('About', 'creative')}</li>
+              <li className='about__iam-item'>{translate('About', 'teamPlayer')}</li>
             </ul>
           </div>
         </div>
         <div className='about__experiences'>
-          <h2>Mes expériences professionnelles</h2>
+          <h2>{translate('Experiences', 'myProfessionalExperiences')}</h2>
           <section className='about__exp'>
             <h3>UX·UI Designer</h3>
-            <h4>Alternance · Logiroad · 2021-2023 </h4>
-            <p>
-              Création d'une plateforme web pour professionnels de la gestion
-              des routes
-            </p>
-            <p>Tests et recherche utilisateur</p>
-            <p>Création et maintien d'un Design System</p>
-            <p>Travail en équipe Agile</p>
-            <p>UX Research</p>
-            <p>Animation d'ateliers d'idéation</p>
+            <h4>{translate('Experiences', 'logiroad')}</h4>
+            <p>{translate('Experiences', 'logiroadTopic1')}</p>
+            <p>{translate('Experiences', 'logiroadTopic2')}</p>
+            <p>{translate('Experiences', 'logiroadTopic3')}</p>
+            <p>{translate('Experiences', 'logiroadTopic4')}</p>
+            <p>{translate('Experiences', 'logiroadTopic5')}</p>
+            <p>{translate('Experiences', 'logiroadTopic6')}</p>
           </section>
           <section className='about__exp'>
             <h3>UI Designer</h3>
-            <h4>Stage · Groupe Syd · 2021</h4>
-            <p>Maquettage du site web de Factory Group</p>
-            <p>Intégration WordPress & Elementor</p>
-            <p>Création d'univers graphique</p>
+            <h4>{translate('Experiences', 'sid')}</h4>
+            <p>{translate('Experiences', 'sidTopic1')}</p>
+            <p>{translate('Experiences', 'sidTopic2')}</p>
+            <p>{translate('Experiences', 'sidTopic3')}</p>
           </section>
         </div>
         <div className='about__studies'>
-          <h2>Mes études</h2>
+          <h2>{translate('Studies', 'myStudies')}</h2>
           <section className='about__exp'>
-            <h3>Mastère UX·UI Design</h3>
+            <h3>{translate('Studies', 'master')}</h3>
             <h4>ECV · Nantes · 2021-23</h4>
-            <p>
-              Méthodes UX, UI design, Sociologie des utilisateurs, ethnologie
-              des usages, anthropologie, analyse des comportements
-              utilisateurs...
-            </p>
+            <p>{translate('Studies', 'masterDesc')}</p>
           </section>
           <section className='about__exp'>
-            <h3>Bachelor Chef de Projet Digital</h3>
+            <h3>{translate('Studies', 'bachelorDigital')}</h3>
             <h4>ECV · Nantes · 2020-21</h4>
-            <p>
-              UX design, webdesign, HTML-CSS, communication & marketing digital,
-              apprentissage des logiciels de PAO...
-            </p>
+            <p>{translate('Studies', 'bachelorDigitalDesc')}</p>
           </section>
           <section className='about__exp'>
-            <h3>Licence LLCER Anglais</h3>
-            <h4>Université · Angers · 2016-19</h4>
-            <p>
-              Grammaire anglaise, communication orale, traduction (version et
-              thème)...
-            </p>
+            <h3>{translate('Studies', 'bachelorEnglish')}</h3>
+            <h4>{translate('Studies', 'bachelorEnglishLocation')}</h4>
+            <p>{translate('Studies', 'bachelorEnglishDesc')}</p>
           </section>
         </div>
       </div>
       <section className='about__gallery'>
-        <h2>Galerie de vie</h2>
+        <h2>{translate('About', 'lifeGallery')}</h2>
         <ul className='about__gallery__list'>
           {images.map((image, index) => (
             <li key={index} className='about__gallery__list-item'>

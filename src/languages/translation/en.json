@@ -1,0 +1,72 @@
+{
+  "global": {
+    "seeMore": "See more"
+  },
+  "homePage": {
+    "helloAndWelcome": "Hello & welcome",
+    "presentation": "I'm Lucie, UX-UI Designer looking for new design opportunities!",
+    "myLinkedin": "My LinkedIn",
+    "downloadResume": "Download my resume",
+    "myJob": "My job",
+    "myJobDescription": "I use UX Design methods to create designs that take into account the humans who interact with them.",
+    "myLastestProjects": "My latest projects",
+    "myFieldsExpertise": "My fields of expertise",
+    "UIExpertise": "Creation of wireframes, mock-ups & prototyping. Creation of graphic guidelines and digital visual identity.",
+    "UXExpertise": "Research and analysis of user behavior. Personas, user journey, user interviews, etc.",
+    "DSExpertise": "Set up a Design System with the relevant teams, maintain and improve components and processes.",
+    "UXWritingExpertise": "Improving the quality of written communication and the user experience conveyed by words.",
+    "myTools": "My tools"
+  },
+  "Navigation": {
+    "backToProjects": "Back to projects",
+    "home": "Home",
+    "myProjects": "My projects",
+    "aboutMe": "About me",
+    "contact": "Contact"
+  },
+  "Projects": {
+    "myProjects": "My projects",
+    "myProjectsDesc": "Find out more about my achievements and the approach I've taken to these various projects, whether they're for school, personal or professional purposes.",
+    "link": "Link",
+    "context": "Context",
+    "approach": "Approach",
+    "mainChallenges": "Main challenges",
+    "acquiredSkills": "Acquired skills",
+    "skillsToBeDeveloped": "Skills to be developed"
+  },
+  "About": {
+    "backgroundSkills": "My background and skills.",
+    "IAm": "I am:",
+    "empatheticAndObservant": "Empathetic & observant",
+    "greatCommunicator": "Great communicator",
+    "goodVibes": "Good vibes generator",
+    "curious": "Curious",
+    "creative": "Creative",
+    "teamPlayer": "Team player",
+    "lifeGallery": "Life gallery"
+  },
+  "Experiences": {
+    "myProfessionalExperiences": "My professional experiences",
+    "logiroad": "Work-study · Logiroad · 2021-2023",
+    "logiroadTopic1": "Creation of a web platform for road management professionals",
+    "logiroadTopic2": "User Research and test",
+    "logiroadTopic3": "Creation and maintenance of a Design System",
+    "logiroadTopic4": "Scrum agile teamwork",
+    "logiroadTopic5": "UX research",
+    "logiroadTopic6": "Ideation workshops",
+    "sid": "Internship · Groupe Syd · 2021",
+    "sidTopic1": "Factory Group website design",
+    "sidTopic2": "WordPress & Elementor integration",
+    "sidTopic3": "Graphic design"
+  },
+  "Studies": {
+    "myStudies": "My studies",
+    "master": " UX·UI Design Master’s degree",
+    "masterDesc": "UX methods, UI design, user sociology, usage ethnology, anthropology, user behavior analysis…",
+    "bachelorDigital": "Bachelor in Digital Project Management",
+    "bachelorDigitalDesc": "UX design, webdesign, HTML-CSS, digital communication & marketing, DTP software training…",
+    "bachelorEnglish": "Bachelor's degree in English",
+    "bachelorEnglishLocation" : "University · Angers · 2016-19",
+    "bachelorEnglishDesc": "English grammar, oral communication, translation …"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "global": {
+    "seeMore": "Voir plus"
+  },
+  "homePage": {
+    "helloAndWelcome": "Bonjour & bienvenue",
+    "presentation": "Je suis Lucie, UX·UI Designer en recherche de nouvelles opportunités Design !",
+    "myLinkedin": "Mon LinkedIn",
+    "downloadResume": "Télécharger mon CV",
+    "myJob": "Mon rôle",
+    "myJobDescription": "J'utilise les méthodes d'UX Design afin de concevoir des designs qui prennent en compte les humains qui interagissent avec.",
+    "myLastestProjects": "Mes derniers projets",
+    "myFieldsExpertise": "Mes domaines d'expertises",
+    "UIExpertise": "Création de wireframes, maquettes & prototypage. Création de charte graphique et d'identité visuelle digitale.",
+    "UXExpertise": "Recherche et analyse des comportements des utilisateurs. Personas, user journey, interviews utilisateurs etc...",
+    "DSExpertise": "Mise en place avec les équipes concernées d'un Design System, maintien et amélioration des composants et processus.",
+    "UXWritingExpertise": "Amélioration de la qualité de la communication écrite et de l'expérience utilisateur véhiculée par les mots.",
+    "myTools": "Mes outils"
+  },
+  "Navigation": {
+    "backToProjects": "Retour aux projets",
+    "home": "Accueil",
+    "myProjects": "Mes projets",
+    "aboutMe": "À propos",
+    "contact": "Contacter"
+  },
+  "Projects": {
+    "myProjects": "Mes projets",
+    "myProjectsDesc": "Découvrez mes réalisations ainsi que l'approche que j'ai apportée à ces différents projets, qu'ils soient scolaires, personnels ou professionnels.",
+    "link": "Lien",
+    "context": "Contexte",
+    "approach": "Approche",
+    "mainChallenges": "Principaux défis",
+    "acquiredSkills": "Compétences acquises",
+    "skillsToBeDeveloped": "Compétences à développer"
+  },
+  "About": {
+    "backgroundSkills": "Mon parcours et mes compétences.",
+    "IAm": "Je suis :",
+    "empatheticAndObservant": "Empathique & observatrice",
+    "greatCommunicator": "Bonne communicante",
+    "goodVibes": "Vectrice de bonne humeur",
+    "curious": "Curieuse",
+    "creative": "Créative",
+    "teamPlayer": "À l'aise en équipe",
+    "lifeGallery": "Galerie de vie"
+  },
+  "Experiences": {
+    "myProfessionalExperiences": "Mes expériences professionnelles",
+    "logiroad": "Alternance · Logiroad · 2021-2023",
+    "logiroadTopic1": "Création d'une plateforme web pour professionnels de la gestion des routes",
+    "logiroadTopic2": "Tests et recherche utilisateur",
+    "logiroadTopic3": "Création et maintien d'un Design System",
+    "logiroadTopic4": "Travail en équipe Agile",
+    "logiroadTopic5": "Recherche UX",
+    "logiroadTopic6": "Animation d'ateliers d'idéation",
+    "sid": "Stage · Groupe Syd · 2021",
+    "sidTopic1": "Maquettage du site web de Factory Group",
+    "sidTopic2": "Intégration WordPress & Elementor",
+    "sidTopic3": "Création d'univers graphique"
+  },
+  "Studies": {
+    "myStudies": "Mes études",
+    "master": "Mastère UX·UI Design",
+    "masterDesc": "Méthodes UX, UI design, Sociologie des utilisateurs, ethnologie des usages, anthropologie, analyse des comportements utilisateurs…",
+    "bachelorDigital": "Bachelor Chef de Projet Digital",
+    "bachelorDigitalDesc": "UX design, webdesign, HTML-CSS, communication & marketing digital, apprentissage des logiciels de PAO...",
+    "bachelorEnglish": "Licence LLCER Anglais",
+    "bachelorEnglishLocation" : "Université · Angers · 2016-19",
+    "bachelorEnglishDesc": "Grammaire anglaise, communication orale, traduction (version et thème)..."
+  }
+}

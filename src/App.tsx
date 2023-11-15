@@ -4,6 +4,7 @@ import NotFound from './pages/NotFound'
 import Projects from './pages/projects/Projects'
 import SingleProject from './pages/single-project/SingleProject'
 
+import { LanguageProvider } from './languages/LanguageProvider'
 import About from './pages/about/About'
 
 import Layout from './layouts/layout/Layout'
@@ -39,9 +40,9 @@ function App () {
   ])
 
   return (
-    <>
+    <LanguageProvider>
       <RouterProvider router={router} />
-    </>
+    </LanguageProvider>
   )
 }
 
