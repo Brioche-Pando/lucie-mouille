@@ -62,10 +62,13 @@
         justify-self: center;
         grid-area: menu;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
         gap: $s5_5;
 
         @include media-min($md) {
+            flex-wrap: nowrap;
             justify-self: self-end;
             gap: $s4;
         }
